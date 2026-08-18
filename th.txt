@@ -22,7 +22,7 @@ local VIM = pcall(function() return game:GetService("VirtualInputManager") end)
     and game:GetService("VirtualInputManager") or nil
 
 -- Y nudge in pixels — tweak this if still off
-local Y_OFFSET = -20
+local Y_OFFSET = 3
 
 -- *same button, just aimed a little lower*
 
